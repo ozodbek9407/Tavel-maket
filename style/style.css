@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header style start */
+.nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 82px 0 98px; 
+}
+
+.logo {
+  color: #3E2768;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.495px;
+  padding: 33px 0 40px;
+  }
+
+.fa-bars {
+  display: none;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-menu ul li {
+  color: #868686;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.446px;
+  margin-right: 20px;
+}
+
+.nav-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px 36px;
+  border-radius: 30px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+}
+
+/* Travel style start */
+  .travel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.bg-img{
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bg-img img {
+  width: 100%;
+}
+
+.travel-title {
+  color: #404041;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 94px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px;
+}
+
+.travel-subtitle {
+  max-width: 888px;
+  width: 100%;
+  margin: 0 auto;
+  color: #868686;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.446px;
+}
+
+.travel-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 15px 36px;
+  border-radius: 30px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px 0px rgba(111, 111, 111, 0.25);
+  margin: 24px 49px;
+  width: 10 0px;
+}
